@@ -116,7 +116,7 @@ class SyntheticDataset(IterableDataset):
             self.tokenized.append({"input_ids": input_ids, "attention_mask": attention_mask})
         print("processed %s entries in the tokenized dataset" % str(len(self.tokenized)))
         self.start = 0
-        self.end = len(self.tokenized
+        self.end = len(self.tokenized)
         
         
     def __iter__(self):
